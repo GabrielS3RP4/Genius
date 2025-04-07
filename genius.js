@@ -113,7 +113,7 @@ export default function App() {
   return (
     <SafeAreaView style={[styles.safeArea, { backgroundColor }]}>  
       <View style={styles.container}>
-        <Text style={styles.title}>Jogo Gênios</Text>
+        <Text style={styles.title}>Genius</Text>
 
         <View style={styles.grid}>
           {Array.from({ length: TOTAL_CELLS }).map((_, index) => (
